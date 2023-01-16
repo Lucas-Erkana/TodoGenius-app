@@ -1,10 +1,14 @@
-import React from "react";
-import { Link, useLocation, Route, Routes } from "react-router-dom";
-import SinglePage from "./SinglePage";
-const About = () => {
+/* eslint-disable */
+import React from 'react';
+import {
+  Link, useLocation, Route, Routes,
+} from 'react-router-dom';
+import SinglePage from './SinglePage';
+
+const About = () =>
   // const location = useLocation();
   // const slug = location.pathname.split("/").pop();
-  return (
+  (
     <div className="about__content">
       <ul className="about__list">
         <li>
@@ -19,5 +23,4 @@ const About = () => {
       </Routes>
     </div>
   );
-};
 export default About;
