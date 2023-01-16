@@ -1,11 +1,9 @@
-import React from 'react'
-import { Link, useLocation, Route } from "react-router-dom"
-import SinglePage from './SinglePage'
-
+import React from "react";
+import { Link, useLocation, Route, Routes } from "react-router-dom";
+import SinglePage from "./SinglePage";
 const About = () => {
-  const location = useLocation()
-  const slug = location.pathname.split("/").pop()
-
+  // const location = useLocation();
+  // const slug = location.pathname.split("/").pop();
   return (
     <div className="about__content">
       <ul className="about__list">
@@ -16,10 +14,10 @@ const About = () => {
           <Link to="/about/about-author">About Author</Link>
         </li>
       </ul>
-      <Route path="/about/:slug">
-        <SinglePage slug={slug} />
-      </Route>
+      <Routes>
+        <Route path="/about" element={<SinglePage />} />
+      </Routes>
     </div>
-  )
-}
-export default About
+  );
+};
+export default About;
