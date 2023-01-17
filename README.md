@@ -236,6 +236,6 @@ Thanks to our friend [Alex](https://github.com/Osoro254Alex) for a good insight 
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Lucash2022/react-todo-app/blob/linters/LICENSE) licensed.
+This project is [MIT](https://github.com/Lucash2022/react-todo-app/blob/features/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
