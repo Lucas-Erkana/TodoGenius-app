@@ -6,6 +6,7 @@ const InputTodo = (props) => {
   const [inputText, setInputText] = useState({
     title: '',
   });
+  const [error, setError] = useState('');
 
   const onChange = (e) => {
     setInputText({
@@ -22,7 +23,10 @@ const InputTodo = (props) => {
         title: '',
       });
     } else {
-      alert('Please write item');
+      setError('Please write item');
+      setTimeout(() => {
+        setError('');
+      }, 2000);
     }
   };
 
@@ -39,6 +43,7 @@ const InputTodo = (props) => {
       <button className="input-submit">
         <FaPlusCircle style={{ color: 'darkcyan', fontSize: '20px', marginTop: '2px' }} />
       </button>
+      {error && <p className="error-message">{error}</p>}
     </form>
   );
 };

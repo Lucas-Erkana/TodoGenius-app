@@ -7,7 +7,6 @@
 body {
   font-family: "Segoe UI", Arial, sans-serif;
   line-height: 1.4;
-  color: #444;
   background: #fff;
   height: 100vh;
 }
@@ -157,4 +156,8 @@ a {
 
 .main__content p {
   line-height: 25px;
+}
+
+.error-message {
+  color: red!important;
 }
