@@ -34,6 +34,7 @@ The Vue.js project is a lightweight and efficient todo app for managing tasks. U
 
 ### App Screenshot
 
+![taskgenius](https://github.com/Lucas-Erkana/TodoGenius-app/assets/41428579/570d808d-5c76-45b1-ae45-c88c8a14e720)
 
 
 ## Live Demo
