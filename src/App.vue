@@ -1,8 +1,16 @@
 <script setup>
 import { ref, onMounted, computed, watch } from 'vue'
+import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import logo from '@/assets/logo.webp'
+
+components: {
+  FontAwesomeIcon
+}
 
 const todos = ref([])
 const name = ref('')
+
 
 const input_content = ref('')
 const input_category = ref(null)
@@ -47,7 +55,21 @@ onMounted(() => {
 
 <template>
 	<main class="app">
-		
+    <nav class="social-icons">
+      <a href="https://github.com/Lucas-Erkana" target="_blank">
+        <font-awesome-icon :icon="faGithub" />
+      </a>
+      <a href="https://www.linkedin.com/in/lucas-erkana/" target="_blank">
+        <font-awesome-icon :icon="faLinkedin" />
+      </a>
+      <a href="https://twitter.com/Lucas_David_22" target="_blank">
+        <font-awesome-icon :icon="faTwitter" />
+      </a>
+
+    </nav>
+    <a href="https://lucaserkana.vercel.app/" target="_blank">
+        <img :src="logo" alt="Logo Image" />
+    </a>
 		<section class="greeting">
 			<h2 class="title">
 				What's up, <input type="text" id="name" placeholder="Name here" v-model="name">

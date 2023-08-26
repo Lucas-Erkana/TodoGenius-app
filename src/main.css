@@ -229,3 +229,26 @@ input:checked ~ .bubble::after {
 	text-decoration: line-through;
 	color: var(--grey);
 }
+
+.main.app {
+	position: relative;
+  }
+  
+  .social-icons {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: flex;
+	gap: 10px;
+	font-size: 24px; 
+  }
+  
+  img {
+	width: 37px;
+	height: 25px;
+	top: 0;
+	right: 91px;
+	display: flex;
+	position: absolute;
+  }
+
