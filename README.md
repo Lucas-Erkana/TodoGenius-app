@@ -1,124 +1,128 @@
-# TodoGenius-app<!---Title of Project-->
 <a name="readme-top"></a>
 
+<h1 align='center'> Task Genius App 🤘 </h1>
 
-## TodoGenius-app <!---Title of Project-->
-
-The Vue.js project is a lightweight and efficient todo app for managing tasks. Users can add, edit, and remove tasks with ease while categorizing them for better organization. The app leverages local storage to save progress, making it an ideal solution for streamlining productivity.
 
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [ Task Genius App 🤘](#-about-project-)
+	- [Live Demo](#live-demo)
+	- [🛠 Built With ](#-built-with-)
+		- [Tech Stack ](#tech-stack-)
+		- [Key Features ](#key-features-)
+	- [💻 Getting Started ](#-getting-started-)
+	- [To get a local copy up and running, follow these steps.](#to-get-a-local-copy-up-and-running-follow-these-steps)
+		- [Prerequisites](#prerequisites)
+		- [Setup](#setup)
+		- [Install](#install)
+	- [👥 Authors ](#-authors-)
+	- [🔭 Future Features ](#-future-features-)
+	- [🤝 Contributing ](#-contributing-)
+	- [⭐️ Show your support ](#️-show-your-support-)
+	- [🙏 Acknowledgments ](#-acknowledgments-)
+	- [🙏 FAQ ](#-faq-)
+	- [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Project name<a name="about-project"></a> <!---Project title-->
-<table style="border: 2px solid black;">
+# Task Genius App 🤘 <a name="about-project"></a>
 
-</table>
-**TodoGenius-app**  is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. You will build a simple website that allows for doing that, and you will do it using ES6 and Webpack! 
+The Vue.js project is a lightweight and efficient todo app for managing tasks. Users can add, edit, and remove tasks with ease while categorizing them for better organization. The app leverages local storage to save progress, making it an ideal solution for streamlining productivity.
 
-Here are some features of the page:
-
-<ul>
-  <li>Type content to be added</li>
-  <li>Select items on the list</li>
-   <li>Add items to list</li>
-  <li>Delete items from list</li>
-</ul>
+### App Screenshot
 
 
 
+## Live Demo
+
+To see this project's live demo, please click [here](https://todo-genius-app.vercel.app/).
 
 ## 🛠 Built With <a name="built-with"></a>
-    HTML
-    CSS
-    Javascript
-    Vue.js
+
+This app is built with Vue.js, Javascript, HTML5, and CSS3.
+### Tech Stack <a name="tech-stack"></a>
+
+<details> <summary>Client</summary> <ul> <li><a href="https://vuejs.org/">Vue.js</a></li> <li><a href="https://www.w3schools.com/js/">Javascript</a></li> <li><a href="https://www.w3schools.com/html/">HTML</a></li> <li><a href="https://www.w3schools.com/css/">CSS</a></li> </ul> </details>
+
+### Key Features <a name="key-features"></a>
+
+> - Add User name
+> - Add task
+> - Choose Business or Personal
+> - Choose completed task
+> - Delete task
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-
-
-[TodoGenius-app](https://github.com/Lucas-Erkana/TodoGenius-app)
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-- Create a local directory that you want to clone the repository.
-
-- Open the command prompt in the created directory.
-
-- On the terminal run this command git clone [https://github.com/Lucas-Erkana/TodoGenius-app]
-
-- Go to the repository folder using command prompt cd To_Do_List
-
-
-- Install the dev dependencies for linters run npm install.
-
-- To start run npm start
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
--A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)
-
--VSCode or any other equivalent code editor
-
--Node Package Manager (For running, debuging, or installing dependancies to be used)
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- A Mac or PC
+- NPM (Node Package Manager) installed on your machine
+- Understanding of Vue.js
+- A web browser such as Google Chrome
+- A code editor such as Visual Studio Code with Git and Node.js installed.
+I apologize for any confusion. Here's an updated example with the correct information:
 
 ### Setup
 
-Clone this repository to your desired folder:
+To set up the TodoGenius-app project, follow the steps below:
 
-- Open the command prompt in the created directory.
+1. Clone this repository to your desired folder:
 
-- On the terminal run this command git clone https://github.com/Lucas-Erkana/TodoGenius-app
+```sh
+ git clone https://github.com/Lucas-Erkana/TodoGenius-app.git
+```
 
-- Go to the repository folder using command prompt cd To_Do_List
+2. Navigate into the cloned folder:
 
-- Install the dev dependencies for linters run npm install.
+```sh
+ cd TodoGenius-app
+```
 
-- To start run npm start
---->
+### Install
+
+1. Install the dependencies with NPM:
+
+```sh
+ npm install
+```
+
+### Run
+
+1. Start the development server with:
+
+```sh
+ npm run dev
+```
+
+After running the `npm run dev` command, the development server will start, and you can access the TodoGenius-app by navigating to `http://localhost:5173` in your web browser.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Author -->
+<!-- AUTHORS -->
 
-## 👤**Authors** <a name="authors"></a>
-<h4>Lucas Erkana</h4>
+## 👥 Authors <a name="authors"></a>
 
+👤 **Lucas Erkana**
 
-
+- GitHub: [@Lucask-Erkana](https://github.com/Lucask-Erkana)
+- Twitter: [@Lucas_David_22](https://twitter.com/@Lucas_David_22)
+- LinkedIn: [Lucas Erkana](https://www.linkedin.com/in/lucas-erkana/)
+- Frontend Mentor - [@Lucask-Erkana](https://www.frontendmentor.io/profile/Lucask-Erkana)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,72 +130,65 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+- [ ] **Add option to add a time and date**
+- [ ] **Edit current list of tasks**
+- [ ] **Sort according to task**
+- [ ] **Send notification to email for remainders 30 minutes away**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Available Scripts
+<!-- CONTRIBUTING -->
 
-In the project directory, you can run:
+## 🤝 Contributing <a name="contributing"></a>
 
-### `npm start`
+Contributions, issues, and feature requests are welcome!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Feel free to check the [issues page](https://github.com/Lucas-Erkana/TodoGenius-app/issues).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm test`
+<!-- SUPPORT -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⭐️ Show your support <a name="support"></a>
 
-### `npm run build`
+If you like this project, please leave a ⭐️
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- ACKNOWLEDGEMENTS -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-### `npm run eject`
+- I would like to express my gratitude to  [Tyler Potts](https://github.com/TylerPottsDev) for provided a detailed and helpful YouTube video for the construction of the TaskGenius app. Their video was instrumental in guiding me through the development process.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+> Add at least 2 questions new developers would ask when they decide to use your project.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **How can I deploy the TaskGenius app to a web server and make it accessible to others?**
 
-## Learn More
+  - To deploy the TaskGenius app, you have several options. One common approach is to use a hosting service like Heroku, AWS, or Azure. These services provide easy-to-use deployment options for web applications like TaskGenius. Typically, you'll need to push your project to a Git repository (e.g., GitHub) and then configure the hosting service to deploy the app automatically whenever you push changes. Each hosting service has its own documentation and guides on how to set up the deployment for web applications.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **How can I modify the TaskGenius app to fit my specific needs?**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  - Modifying the TaskGenius app involves modifying the existing code and adding your own features. Here are some steps you can take to customize the app:
 
-### Code Splitting
+    - Change Content: Update the text in the components to fit your specific needs. For example, you can update the task categories or add new ones.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    - Add Features: If you want to add new features to the app, you can create a new component or modify an existing one. For example, you can add a feature to set reminders for tasks or to share tasks with other users.
 
-### Analyzing the Bundle Size
+    - Styling: To change the appearance, you can modify the CSS styles in the index.css file or create a separate CSS file and import it into the components where you need custom styling. You can update colors, fonts, spacing, and other visual elements to match your preferences.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+I hope this helps! Let me know if you have any further questions or concerns.
 
-### Making a Progressive Web App
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<!-- LICENSE -->
 
-### Advanced Configuration
+## 📝 License <a name="license"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project is [MIT](./LICENSE) licensed.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
